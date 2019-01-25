@@ -16,6 +16,13 @@ This repository helps us to gain an experience in creating new repositories in g
 
 ## Recommended Resources
 
-* [GitHub](https://github.com/ "Link to GitHub")
-* [WordPress](https://wordpress.com/ "Link to WordPress")
-* [Visual Studio Code](https://code.visualstudio.com/ "Link to visual studio code")
+* [GitHub](https://github.com/ "Link to GitHub"): It is repository hosting service, where we can store our projects. It is a free and open source service.
+* [WordPress](https://wordpress.com/ "Link to WordPress"): It is used to write, edit and publish content on the web.
+* [Visual Studio Code](https://code.visualstudio.com/ "Link to visual studio code"): It is a source code editor with built-in Git commands. We can debug the code from its editor.
+
+## Contributors
+
+I am Priyanka. I am currently pursuing my Masters in Applied Computer Science. This is my first semester of the course. It focusses on Webapps, Advanced topics in Database and Java Programming.
+
+
+
