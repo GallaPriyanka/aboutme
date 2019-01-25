@@ -24,7 +24,7 @@ This repository helps us to gain an experience in creating new repositories in g
 
 I am Priyanka. I am currently pursuing my Masters in Applied Computer Science. This is my first semester of the course. It focusses on Webapps, Advanced topics in Database and Java Programming.
 
-Here is an adorable picture of a little boy playing with a dog.
+This is my photo.
 
 ![A kid and a dog](image1.jpeg "my image")
 
