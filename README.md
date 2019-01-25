@@ -24,5 +24,7 @@ This repository helps us to gain an experience in creating new repositories in g
 
 I am Priyanka. I am currently pursuing my Masters in Applied Computer Science. This is my first semester of the course. It focusses on Webapps, Advanced topics in Database and Java Programming.
 
+Here is an adorable picture of a boy playing with a dog.
 
+![A kid and a dog](https://www.persuadedpooch.com/wp-content/uploads/2016/11/151125-kid-with-dog-yh-1230p_a1d5c6f352b67e37690c51559fbcc4cc.nbcnews-fp-1200-800-846x564.jpg)
 
