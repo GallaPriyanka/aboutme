@@ -17,3 +17,5 @@ This repository helps us to gain an experience in creating new repositories in g
 ## Recommended Resources
 
 * [GitHub](https://github.com/ "Link to GitHub")
+* [WordPress](https://wordpress.com/ "Link to WordPress")
+* [Visual Studio Code](https://code.visualstudio.com/ "Link to visual studio code")
