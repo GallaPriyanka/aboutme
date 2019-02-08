@@ -1,0 +1,25 @@
+body    {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    min-height: 75rem;
+    padding-top: 6rem;
+    background-image: "image1.jpeg";
+}
+
+.main-headings  {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: darkblue;
+}
+
+
+section {
+    margin: 0.5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: lightcoral;
+    border-collapse: collapse;
+    border-style: solid;
+  }
+
+  
