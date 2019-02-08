@@ -22,4 +22,15 @@ section {
     border-style: solid;
   }
 
-  
+  table{
+    background-color: #006947;
+    border: 1px;
+    border-color: black;
+}
+th, td{
+    border: 1px;
+    border-style: double;
+    border-color: black;
+    color: palegoldenrod;
+    text-align: left;
+}
