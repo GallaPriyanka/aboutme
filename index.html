@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 
-    <link href="./css/galla.css" rel="stylesheet" >
+    <link href="./css/galla.css" rel="stylesheet">
+
+    
 </head>
 
-<body>
+<body class="b">
 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand main-headings" href="index.html">Priyanka Galla</a>
@@ -41,59 +43,64 @@
                   </form>
                 </div>
               </nav>
-    <header>
-
-       <h1 class="main-headings"> Priyanka Galla </h1>
-
-    </header>
-
-
-<main class="container-fluid">
+    
+    <main class="container-fluid">
+        <header>
+            <h1 class="main-headings"> About Me </h1>
+        </header>
     <div class="row">
     <article class="col-sm-8">
             <section>
-                
-                <h2>Intoduction</h2>
+                <h1>Intoduction</h1>
+                    <div class="row">
+                    <div class="col-sm-4">
                     I started my Masters in Applied Computer Science at the NorthWest Missouri State University, this Spring 2019.
                     I should be graduating for my post graduation by the end of Fall 2020.
-                    <img class="rounded-circle" src="https://github.com/GallaPriyanka/aboutme/blob/master/images/profilepicture.jpeg?raw=true" style="width:250px;height:350px;">
-
-                
+                    </div>
+                    <span style="display:inline-block; width: 10rem;"></span>
+                    <div class="col-md-2">
+                    <img class="rounded-circle" src="https://github.com/GallaPriyanka/aboutme/blob/master/images/profilepicture.jpeg?raw=true" style="width: 20rem;height:20rem;">
+                    </div>
+                    </div>
                 
             </section>
+            <br/> <br/>
+
             <div class="row">
-            <section class="col-sm-4">
-                <h2>Background</h2>
+            <section class="col-md-5" id="sec_bg">
+                <h1>Background</h1>
                     I am from a town called Guntur (in Andhra Pradesh), India.
                     All my schooling took place in my hometown. I pursued my Under Graduation (BTech) in Computer Science and Engineering(CSE) at RVR & JC College of Engineering, Guntur.
                     Later I worked for the Tata Consultancy Service(TCS) as a DataBase developer for 1.5 years.
                     My job included working on technologies like SQL, PLSQL, Unix and Informatica.
                     I spend my free time by solving sudoku, puzzles and mystery riddles.
-                <h2>Interesting Facts</h2>
-                    I like to spend more time with my family and help my parents in their work.
-                    I always want to make them as proud of me as I am of them.
             </section>
-            <section class="col-sm-4">
-                <h2>Plans</h2>
+            <span style="display:inline-block; width: 3rem;"></span>
+            <section class="col-md-5" id="sec_bg">
+                <h1>Plans</h1>
                     My dream is to get into the Google company as a developer.
                     I want to be a Java or DataBase developer because I am very much interested in Java and SQL programming and DataBase Management Systems(DBMS).
                     I like the work that involves programming and solving problems with creative thinking.
+                    <h1>An Interesting Fact About Me:</h1>
+                    I like to spend more time with my family and help my parents in their work.
+                    I always want to make them as proud of me as I am of them.
                     
-            </section>  
-            <div class="col-md-2">
-                <img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/selfie.jpeg?raw=true" style="width:250px;height:250px; transform: rotate(90deg)">photography by: Priyanka Galla
-            </div>
+            </section>       
+            
                     
         </div>
     </article>
     <aside class="col-sm-4">
-        <h2>Aside</h2>
-        <section>
+        
+        <section style="padding-bottom: 4.3em">
+                <h1>Aside</h1>
             <ul><li>Click on the linkdin icon to go my linked in profile: 
-                <a href="https://www.linkedin.com/in/priyanka-galla-427166ab/" ><img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/linkedin.jpeg?raw=true"></a></li>
+                <a href="https://www.linkedin.com/in/priyanka-galla-427166ab/"><img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/linkedin.jpeg?raw=true"></a></li>
                 <li>Click on the github icon to go my github in profile:
-                <a href="https://github.com/GallaPriyanka" ><img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/github.jpeg?raw=true"></a></li>
+                <a href="https://github.com/GallaPriyanka"><img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/github.jpeg?raw=true"></a></li>
             </ul>
+
+            
         </section>
     </aside>
 </div>
@@ -101,9 +108,9 @@
 
 <br/>
 <div class="row">
-<div class="col-md-6">
+<div class="col-sm-4" style="padding-left: 3rem;">
     <h2> My current courses are: </h2>
-<table>
+<table id="tb">
         <tr>
             <th style="text-align: center">Course</th>
             <th style="text-align: center">Credit hours</th>
@@ -122,10 +129,25 @@
         </tr>
     </table>
 </div>
-<div class="col-md-6">
-        <iframe id="video" width="642" height="361" src="https://www.youtube.com/embed/jV8B24rSN5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="col-sm-2">
+        <img src="https://github.com/GallaPriyanka/aboutme/blob/master/images/selfie.jpeg?raw=true" style="width: 12rem; height:15rem; transform: rotate(90deg)">photography by: Priyanka Galla
+</div>
+<div class="col-sm-4">
+        <iframe id="video" width="650px" height="450px" src="https://www.youtube.com/embed/jV8B24rSN5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Here is a video on basic CSS Grid for you!</iframe>
 </div>
 </div>
+<div class="row">
+        <div class="col-sm-4" style="padding-left: 3rem;">
+        </div>
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-4">
+            Here is a video on basic CSS Grid layout for you!
+        </div>
+
+</div>
+
+
 <hr/>
 
 <footer class="container-fluid">

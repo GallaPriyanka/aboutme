@@ -1,28 +1,22 @@
-body    {
+.b    {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     min-height: 75rem;
     padding-top: 6rem;
-    background-image: "image1.jpeg";
 }
 
 .main-headings  {
     font-family: 'Dancing Script', cursive;
     font-size: 3rem;
     color: darkblue;
+    padding-left: 5px;
 }
 
+#sec_bg{
+    padding-right: 3em;
+}
 
-section {
-    margin: 0.5rem;
-    padding: 2rem;
-    height: auto;
-    background-color: lightcoral;
-    border-collapse: collapse;
-    border-style: solid;
-  }
-
-  table{
+#tb{
     background-color: #006947;
     border: 1px;
     border-color: black;
@@ -34,3 +28,14 @@ th, td{
     color: palegoldenrod;
     text-align: left;
 }
+
+section {
+    margin: 0.5rem;
+    padding: 2rem;
+    height: auto;
+    background-color: lightcoral;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+
