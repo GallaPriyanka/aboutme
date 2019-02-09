@@ -24,6 +24,8 @@
     background-color: #006947;
     border: 1px;
     border-color: black;
+    height: 15rem;
+    width: 30rem
 }
 th, td{
     border: 1px;
