@@ -11,16 +11,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--new font -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-
+    <!--All my styles are in this stylesheet -->
     <link href="./css/galla.css" rel="stylesheet" >
 </head>
 
 <body class="b">
-
-
-
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand main-headings" href="index.html">Priyanka Galla</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -42,10 +40,10 @@
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                   </form>
                 </div>
-              </nav>
-              <header class="container-fluid">
+     </nav>
+     <header class="container-fluid">
             <h1 class="main-headings"> Volume Calculator </h1>
-        </header>
+     </header>
 
         <main class="container-fluid">
             <div class="row">
@@ -53,10 +51,10 @@
                     <h2> Calculate volume of a cube here! </h2>
                     <br/><br/>
                     <form>
-                            Enter the side length of the cube: <br>
-                            <input id="s" type="text" placeholder="Side...">
+                            Enter the side length of your cube: <br>
+                            <input id="s" type="text" placeholder="Side length...??">
                             <br/><br/><br/>
-                            <input type="button" onclick="volume()" value="Calculate Volume">
+                            <input type="button" onclick="volume()" value="Calculate Volume" style="color: blue">
                             <span style="display:inline-block; width: 5rem;"></span>
                             <input type="Reset" value="Reset"><br>
         
@@ -80,8 +78,9 @@
         <br/><br/><br/><br/>
         <footer class="container-fluid" style="color: white">
             &copy; Priyanka Galla 2019
-        
         </footer>
+        
+        <!-- JQuery CSS. First Bootstrap CSS is loaded and then JQuery CSS is loaded. -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
