@@ -3,8 +3,9 @@
     font-size: 1.5rem;
     min-height: 75rem;
     padding-top: 6rem;
-    background-image: url("C:\44563\aboutme\images\mynature.jpeg");
+    background-image: url("https://github.com/GallaPriyanka/aboutme/blob/master/images/mynature.jpeg?raw=true");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-headings  {
