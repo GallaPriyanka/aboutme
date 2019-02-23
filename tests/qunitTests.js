@@ -14,9 +14,14 @@ function volumeOfCube(side){
 }
 
 
- QUnit.test("A test with small positive number", function(assert) {
+QUnit.test("A test with small positive number", function(assert) {
 	assert.equal(volumeOfCube(3), "The volume of cube is: " +27, "Tested with a small positive whole number - 3");
-	
+	assert.equal(volumeOfCube(5), "The volume of cube is: " +125, "Tested with a small positive whole number - 5");	
+ });
+
+ QUnit.test("A test with some more positive numbers", function(assert) {
+	assert.equal(volumeOfCube(15), "The volume of cube is: " +3375, "Tested with a small positive whole number - 3");
+	assert.equal(volumeOfCube(56), "The volume of cube is: " +175616, "Tested with a small positive whole number - 5");	
  });
 
  QUnit.test("A test with large positive number", function(assert) {
@@ -29,8 +34,9 @@ function volumeOfCube(side){
 });
 
  QUnit.test("A test with a negative number", function(assert) {
-     assert.equal(volumeOfCube(-2), 'Please enter a side value that is greater than zero', "Tested with a negative vallue - (-2)");
+     assert.equal(volumeOfCube(-2), 'Please enter a side value that is greater than zero', "Tested with a negative value - (-2)");
 });
+
  QUnit.test("A test with non-numbers", function(assert) {
      assert.throws(function () {volumeOfCube("a") }, /Not a Number/, "Tested an exception");
 });

@@ -16,7 +16,7 @@
     <!--All my styles are in this stylesheet -->
     <link href="./css/galla.css" rel="stylesheet" >
     <!--The javascript code for this page is in this .js file-->
-    <script src="./scripts/cubeVolume.js"></script>
+    
 </head>
 
 <body class="b">
@@ -57,17 +57,24 @@
                             Enter the side length of your cube: <br>
                             <input id="sideElement" type="text" placeholder="Side length...??">
                             <br/><br/><br/>
-                            <button type="button" id="volumeButton" class = "btn" >Calculate Volume</button>
+                            <button type="button" id="volumeButton" class = "btn btn-primary" >Calculate Volume</button>
                             <span style="display:inline-block; width: 5rem;"></span>
                             <button id="resetButton">Reset</button><br>
         
-                            <br/><br/>
-                            <span style="display:inline-block; width: 2rem;"></span>
+                            <br/>
+                            
                             <p id="outputElement"></p>
                             
                     </form>
                     
                 </section>
+                <section class="col-sm-4">
+                    <div id="ajax_demo" onclick="loadDoc()"> Click here and see what happens! </div>
+
+                </section>
+
+
+
             </div>
 
         </main>
@@ -78,6 +85,7 @@
         </footer>
         
         <!-- JQuery CSS. First Bootstrap CSS is loaded and then JQuery CSS is loaded. -->
+        <script src="./scripts/cubeVolume.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
