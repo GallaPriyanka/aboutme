@@ -65,7 +65,7 @@ if(r){
     })
 }
 
-function loadDoc() {
+function ajax_example() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
