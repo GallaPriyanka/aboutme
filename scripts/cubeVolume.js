@@ -41,7 +41,7 @@ console.log('Declaring event listeners')
       b.addEventListener('click', () => {
       console.log('  Starting CalculateVolume button click handler')
       const originalCount = parseInt(localStorage.getItem('countOfClicks')) || 0
-      var inputElement = document.getElementById('sideElement').value
+      const inputElement = document.getElementById('sideElement').value
       console.log('Side =' + inputElement)
       
       const ct = originalCount + 1
