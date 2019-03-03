@@ -11,7 +11,7 @@ console.log('Declaring function to calculate volume of a cube')
 function volumeOfCube(side){
     if (typeof side !== 'number'){
 		throw Error("Not a Number");
-	  }
+	}
     if ( side >= 0){
         const number = parseFloat(side)
         const volume = number*number*number
