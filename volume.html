@@ -72,12 +72,13 @@
                 </section>
                 <section class="col-sm-4">
                     <!-- <div id="ajax_demo" onclick="ajax_example()"> Click here and see what happens! </div> -->
-                    <div id="ajax_demo">Click here and see what happens!</div>
+                    <div id="ajax_demo">
+                      <button id="ajax_button" type="button">Ajax</button></div>
 
                 </section>
 
                 <script>
-                    $("#ajax_demo").click(function(){
+                    $("#ajax_button").click(function(){
                       ajax_example();
                     });
                 </script>
