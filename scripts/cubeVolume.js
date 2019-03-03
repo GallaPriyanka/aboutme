@@ -10,11 +10,11 @@ console.log('Declaring function to calculate volume of a cube')
 
 function volumeOfCube(side){
     if (typeof side !== 'number'){
-		throw Error("Not a Number");
+		throw Error('Not a Number');
 	}
     if ( side >= 0){
-        const number = parseFloat(side)
-        const volume = number*number*number
+        const number1 = side
+        const volume = number1*number1*number1
         return volume
     }
     if ( side < 0){
@@ -41,11 +41,11 @@ console.log('Declaring event listeners')
       b.addEventListener('click', () => {
       console.log('  Starting CalculateVolume button click handler')
       const originalCount = parseInt(localStorage.getItem('countOfClicks')) || 0
-      const inputElement = document.getElementById('sideElement').value
+      var inputElement = document.getElementById('sideElement').value
       console.log('Side =' + inputElement)
       
       const ct = originalCount + 1
-      const result = 'The volume of cube is: ' +volumeOfCube(inputElement)
+      const result = 'The volume of cube is: ' +volumeOfCube(parseFloat(inputElement))
       document.getElementById('outputElement').innerHTML = result
       localStorage.setItem('countOfClicks', ct) 
       localStorage.setItem('sideElement', inputElement)

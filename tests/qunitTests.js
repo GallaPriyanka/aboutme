@@ -1,3 +1,7 @@
+QUnit.test("Here's a test that should always pass", function (assert) {
+    assert.ok(1 == "1", "1=1 success!");
+});
+
 QUnit.test("A test with small positive number", function(assert) {
 	assert.equal(volumeOfCube(3), 27, "Tested with a small positive whole number - 3");
 	assert.equal(volumeOfCube(5), 125, "Tested with a small positive whole number - 5");	
@@ -22,5 +26,5 @@ QUnit.test("A test with small positive number", function(assert) {
 });
 
  QUnit.test("A test with non-numbers", function(assert) {
-     assert.throws(function () {volumeOfCube("a") }, /Not a Number/, "Tested an exception");
+     assert.throws(function () {volumeOfCube(null); }, /Not a Number/, "Tested an exception");
 });
